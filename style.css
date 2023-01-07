@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    height: 120vh;
+    background-image: url('images/banner/banner1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: right;
+
+}
+
+.header-description {
+    width: 30%;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    padding-right: 150px;
+
+}
+
+.banner-title {
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.banner-description {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin: 20px 0;
+}
+
+.btn {
+    height: 64px;
+    width: 160px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+.failures {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    background-color: beige;
+}
+
+.failures-title {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.failures-description {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.failures-brief {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.failures-description i {
+    margin-right: 15px;
+    color: green;
+}
+
+.my-plans {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.plan-title {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.planing-site {
+    display: flex;
+    justify-content: space-around;
+}
+
+.planing-title {
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.planning-description {
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.developer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.developer img{
+    width: 400px;
+}
+.work{
+    width: 400px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.positive {
+    margin-top: 80px;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(orange, #fff);
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+.positive img {
+    width: 100%;
+    mix-blend-mode: darken;
+    height: 100%;
+}
+
+.positive-content {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.positive-title {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.btn-another {
+    color: orange;
+    background-color: #fff;
+}
+
+.future {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+    background-color: black;
+    color: #fff;
+}
+
+.future-content {}
+
+.future-title {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.future-description {
+    width: 500px;
+    margin: 20px 0;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.contact-list {
+    margin-bottom: 15px;
+}
+.contact-list a{
+    text-decoration: none;
+    color: #fff;
+}
+.future-content img {
+    margin: 20px 10px;
+
+}
+
+.contact {}
+
+.contact-title {}
+
+.contact input {
+    background-color: black;
+    color: #fff;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.btn-other{
+    padding: 10px;
+    border-radius: 10px;
+}
